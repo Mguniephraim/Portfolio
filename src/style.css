@@ -16,7 +16,7 @@ section{
   
 }
 footer{
-  height: 500px;
+  height: 100vh;
   background-color: black;
 }
 nav{
@@ -170,7 +170,7 @@ a{
   outline: 0;
 }
 .container{
-  width:90%;
+  width:50%;
   max-width: 300px;
   margin: 0 auto;
   padding:20px;
