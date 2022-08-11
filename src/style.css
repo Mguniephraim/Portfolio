@@ -171,7 +171,7 @@ a{
 }
 .container{
   width:90%;
-  max-width: 300px;
+  max-width: 200px;
   margin: 0 auto;
   padding:20px;
   box-shadow: 0px 0px 20px #00000010;
@@ -194,6 +194,23 @@ a{
 }
 textarea{
   resize: vertical;
+}
+button[type="submit"]{
+  width: 100%;
+  border: none;
+  outline:none;
+  padding:20px;
+  font-size:24px;
+  border-radius:8px;
+  color:rgb(27,166,247);
+  font-family:'Montserrat';
+  text-align:center;
+  cursor: pointer;
+  margin-top:10px;
+  transition:3s ease background-color;
+}
+button[type="submit"]:hover{
+  background-color:rgb(214,226,236);
 }
 
 @media only screen and (max-width:1000px){
