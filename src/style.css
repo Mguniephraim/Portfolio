@@ -101,6 +101,7 @@ footer{
 .logo{
   height: 80px;
   margin: 30px;
+  border-radius:15px;
 }
 .social{
   margin: 10px;
